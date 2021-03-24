@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    padding: 0 60px;
+}
+
+.header {
+    height: 100px;
+    background-color: thistle;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    align-items: center;
+    justify-items: end;
+}
+
+.logo {
+    height: 70px;
+    width: 60px;
+}
+
+.navbar li{
+    display: inline;
+    padding: 0px 15px;
+}
+
+.navbar a{
+    text-emphasis: none;
+    font-size: 20px;
+}
+ /* styling banner area  */
+
+  .banner {
+      background-image: url(../images/fruity.png);
+      height: 250px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      color: teal;
+     font-weight: bold;
+  }
+
+  .maincontent {
+      padding: 40px;
+      justify-content: center;
+  }
+  .content1,
+  .content2{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      height: 200px;
+      grid-gap: 20px;
+      padding: 20px;
+  }
+  p {
+      color: palevioletred;
+      font-weight: bold;
+  }
+  .content1 div,
+  .content2 div {
+      background-color: thistle;
+      text-align: center;
+      padding: 60px;
+  }
+
+  /* marquee  */
+  .marquee {
+      color: teal;
+      font-size: 20px;
+      padding: 20px;
+  }
+
+  /* . styling the subcontent area  */
+  .parent {
+      display: grid;
+      grid-template-columns: repeat(3, 30%);
+      height: 250px;
+      padding: 30px 40px;
+      grid-gap: 40px;
+      justify-content: center;
+  }
+  .child1,
+  .child2,
+  .child3{
+      background-color: whitesmoke;
+      box-shadow: 0 0 20px 0;
+      text-align: center;
+      padding: 30px 0;
+  }
+  .footer {
+      height: 40px;
+      text-align: center;
+      background-color: slategray;
+      padding: 20px;
+  }
+  .footer p{
+      color: white;
+  }
+
+  /* about  */
+  .aboutcontent {
+      padding: 40px;
+      justify-content: center;
+  }
+  .aboutcontent .content{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 300px;
+      grid-gap: 40px;
+      padding: 40px;
+  }
+
+  .aboutcontent .content div{
+      background-color: darksalmon;
+      text-align: center;
+      padding: 60px;
+  }
+  .content p{
+      color: green;
+  }
+  /* contact  */
+  .acontent{
+      height: 300px;
+      padding:  150px 0;
+  } 
+  /* service  */
+
+ .ainsection{
+padding: 180px 0;
+ }

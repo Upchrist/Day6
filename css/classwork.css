@@ -1,0 +1,20 @@
+.header {
+    height: 100px;
+    background-color: seagreen;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    align-items: center;
+    justify-items: end;
+}
+.logo {
+    height: 70px;
+}
+.navbar li{
+    display: inline;
+    padding: 0px 15px
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+}
